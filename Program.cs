@@ -11,7 +11,7 @@ namespace PacmanProject
             Console.CursorVisible = false;
 
             char[,] map = ReadMap("maze.txt");
-            ConsoleKeyInfo pressedKey = new ConsoleKeyInfo('w', ConsoleKey.W, false, false, false);
+            ConsoleKeyInfo pressedKey = new ConsoleKeyInfo();
 
             int pacmanX = 1;
             int pacmanY = 1;
